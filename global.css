@@ -1,0 +1,22 @@
+:root {
+  /* fonts */
+  --font-trispace: Trispace;
+
+  /* font sizes */
+  --font-size-base: 20px;
+  --font-size-lg: 40px;
+  --font-size-xl: 44px;
+  --font-size-2xl: 64px;
+  --font-size-3xl: 85px;
+
+  /* Colors */
+  --color-white: #fff;
+
+  /* Gaps */
+  --gap-md: 43px;
+
+  /* Paddings */
+  --padding-sm: 30px;
+  --padding-md: 40px;
+  --padding-lg: 60px;
+}

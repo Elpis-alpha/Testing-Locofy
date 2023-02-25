@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+
+    <link rel="stylesheet" href="./global.css" />
+    <link rel="stylesheet" href="./index.css" />
+
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Trispace:wght@400;600&display=swap"
+    />
+  </head>
+  <body>
+    <div class="design-us">
+      <nav class="navbar">
+        <div class="designus">DesignUs</div>
+        <div class="info">
+          <div class="links">
+            <div class="portfolio">Portfolio</div>
+            <div class="portfolio">Budget</div>
+            <div class="portfolio">About Us</div>
+            <div class="portfolio">Contact Us</div>
+          </div>
+          <button class="menu">
+            <img class="vector-icon" alt="" src="public/vector.svg" />
+          </button>
+        </div>
+      </nav>
+      <section class="hero">
+        <div class="hero-text">
+          <div class="ht-1">
+            <div class="testing-locofy">Testing Locofy</div>
+          </div>
+          <div class="ht-1">
+            <div class="testing-locofy">Making use of auto layout</div>
+          </div>
+        </div>
+        <img
+          class="illustration-1-icon"
+          alt=""
+          loading="lazy"
+          src="public/illustration-1@2x.png"
+        />
+      </section>
+      <div class="footer">
+        <button class="search" id="sEARCH">
+          <div class="portfolio">Search</div>
+          <img class="lupa-icon" alt="" src="public/lupa.svg" />
+        </button>
+      </div>
+    </div>
+
+    <script>
+      var sEARCH = document.getElementById("sEARCH");
+      if (sEARCH) {
+        sEARCH.addEventListener("click", function () {
+          window.open("https://simple-mortgage.vercel.app/");
+        });
+      }
+      </script>
+  </body>
+</html>
